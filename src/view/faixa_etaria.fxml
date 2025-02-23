@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FaixaEtariaController" prefWidth="400" prefHeight="700" style="-fx-background-color: linear-gradient(to bottom, #6a11cb, #2575fc); -fx-padding: 20px;">
+
+    <!-- Título -->
+    <Label text="Verificação de Faixa Etária" layoutX="50" layoutY="50" style="-fx-font-size: 24px; -fx-text-fill: white; -fx-font-weight: bold; -fx-alignment: center;"/>
+
+    <!-- Caixa de Entrada -->
+    <TextField fx:id="inputIdade" layoutX="50" layoutY="150" prefWidth="300" promptText="Digite sua idade" style="-fx-font-size: 18px; -fx-background-radius: 15px; -fx-padding: 10px; -fx-border-color: white; -fx-border-radius: 15px; -fx-text-fill: black;"/>
+
+    <!-- Botão -->
+    <Button text="Verificar" layoutX="100" layoutY="220" prefWidth="200" fx:id="btnVerificar" style="-fx-background-color: #00d2ff; -fx-background-radius: 15px; -fx-font-size: 20px; -fx-text-fill: white; -fx-padding: 10px; -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 3);" />
+
+    <!-- Resultado -->
+    <Label fx:id="lblResultado" layoutX="50" layoutY="300" prefWidth="300" textFill="white" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-alignment: center;"/>
+
+    <!-- Rodapé -->
+    <Label text="App desenvolvido em JavaFX" layoutX="100" layoutY="650" style="-fx-font-size: 14px; -fx-text-fill: white; -fx-alignment: center;"/>
+
+</AnchorPane>
