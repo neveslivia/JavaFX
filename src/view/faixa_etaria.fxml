@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.control.*?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FaixaEtariaController" prefWidth="400" prefHeight="700" style="-fx-background-color: linear-gradient(to bottom, #6a11cb, #2575fc); -fx-padding: 20px;">
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700" prefWidth="400" style="-fx-background-color: linear-gradient(to bottom, #ACE8CC, #BCFFEF); -fx-padding: 20px;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FaixaEtariaController">
 
     <!-- Título -->
-    <Label text="Verificação de Faixa Etária" layoutX="50" layoutY="50" style="-fx-font-size: 24px; -fx-text-fill: white; -fx-font-weight: bold; -fx-alignment: center;"/>
+    <Label layoutX="50" layoutY="50" style="-fx-font-size: 24px; -fx-text-fill: #3A3A3A; -fx-font-weight: bold; -fx-alignment: center;" text="Verificação de Faixa Etária" />
 
     <!-- Caixa de Entrada -->
-    <TextField fx:id="inputIdade" layoutX="50" layoutY="150" prefWidth="300" promptText="Digite sua idade" style="-fx-font-size: 18px; -fx-background-radius: 15px; -fx-padding: 10px; -fx-border-color: white; -fx-border-radius: 15px; -fx-text-fill: black;"/>
+    <TextField fx:id="inputIdade" layoutX="48.0" layoutY="182.0" prefWidth="300" promptText="Digite sua idade" style="-fx-font-size: 18px; -fx-background-radius: 15px; -fx-padding: 10px; -fx-border-color: #ACE8E7; -fx-border-radius: 15px; -fx-text-fill: #3A3A3A; -fx-background-color: white;" />
 
     <!-- Botão -->
-    <Button text="Verificar" layoutX="100" layoutY="220" prefWidth="200" fx:id="btnVerificar" style="-fx-background-color: #00d2ff; -fx-background-radius: 15px; -fx-font-size: 20px; -fx-text-fill: white; -fx-padding: 10px; -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 3);" />
+    <Button fx:id="btnVerificar" layoutX="98.0" layoutY="325.0" prefWidth="200" style="-fx-background-color: #50BF97; -fx-background-radius: 15px; -fx-font-size: 20px; -fx-text-fill: #3A3A3A; -fx-padding: 10px; -fx-effect: dropshadow(gaussian, #ACE8E7, 5, 0, 0, 3);" text="Verificar" />
 
     <!-- Resultado -->
-    <Label fx:id="lblResultado" layoutX="50" layoutY="300" prefWidth="300" textFill="white" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-alignment: center;"/>
+    <Label fx:id="lblResultado" layoutX="50" layoutY="380" prefWidth="300" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-alignment: center; -fx-text-fill: #3A3A3A;" />
 
     <!-- Rodapé -->
-    <Label text="App desenvolvido em JavaFX" layoutX="100" layoutY="650" style="-fx-font-size: 14px; -fx-text-fill: white; -fx-alignment: center;"/>
+    <Label layoutX="110.0" layoutY="650.0" style="-fx-font-size: 14px; -fx-text-fill: #3A3A3A; -fx-alignment: center;" text="App desenvolvido em JavaFX" />
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true" />
 
 </AnchorPane>
