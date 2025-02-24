@@ -9,4 +9,5 @@ public class FaixaEtariaController {
         Main.mudarTela("calculo_media");
     }
 
+
 }

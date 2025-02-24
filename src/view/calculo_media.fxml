@@ -10,10 +10,10 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="844" prefWidth="390" style="-fx-background-color: linear-gradient(to bottom, #B97AD0, #7500D4);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: linear-gradient(to bottom, #B97AD0, #7500D4);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
 
-    <!-- Menu Superior -->
-    <MenuBar layoutX="0" layoutY="0" prefWidth="390" style="-fx-background-color: #69328F;">
+
+    <MenuBar layoutX="-1.0" layoutY="-3.0" prefHeight="35.0" prefWidth="440.0" style="-fx-background-color: #69328F;">
         <Menu text="Opções">
             <MenuItem text="Configurações" />
             <MenuItem text="Ajuda" />
@@ -21,7 +21,7 @@
         </Menu>
     </MenuBar>
 
-    <!-- Barra de Pesquisa -->
+
     <HBox layoutX="20" layoutY="50" spacing="10">
         <TextField fx:id="searchBar" prefHeight="40.0" prefWidth="147.0" promptText="Buscar..." style="-fx-font-size: 18px; -fx-background-radius: 12px; -fx-border-color: transparent; -fx-background-color: #B484DC; -fx-padding: 12px; -fx-effect: dropshadow(gaussian, #00000050, 10, 0, 0, 5);" />
         <Button fx:id="btnSearch" style="-fx-background-color: #5900A1; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 12px; -fx-cursor: hand;" text="🔍" />
@@ -42,8 +42,8 @@
         <Label fx:id="lblSituacao" style="-fx-font-size: 22px; -fx-text-fill: #B484DC; -fx-font-weight: bold;" text="" />
     </VBox>
 
-    <!-- Barra de Navegação Inferior -->
-    <HBox alignment="center" layoutX="0" layoutY="800" prefWidth="390" spacing="50" style="-fx-background-color: #3A1A55; -fx-padding: 10px;">
+
+    <HBox alignment="center" layoutX="10.0" layoutY="800.0" prefHeight="71.0" prefWidth="420.0" spacing="50" style="-fx-background-color: #3A1A55; -fx-padding: 10px;">
         <Button fx:id="btnHome" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 24px; -fx-cursor: hand;" text="🏠" />
         <Button fx:id="btnBack" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 24px; -fx-cursor: hand;" text="⬅" />
         <Button fx:id="btnForward" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 24px; -fx-cursor: hand;" text="➡" />
@@ -51,6 +51,6 @@
     </HBox>
 
       <Button fx:id="btnLimpar" layoutX="276.0" layoutY="722.0" style="-fx-background-color: #3A1A55; -fx-text-fill: white; -fx-font-size: 20px; -fx-background-radius: 12px; -fx-padding: 12px; -fx-cursor: hand; -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 3);" text="Limpar" />
-      <Button fx:id="btnCalcular" layoutX="118.0" layoutY="551.0" style="-fx-background-color: #5900A1; -fx-text-fill: white; -fx-font-size: 20px; -fx-background-radius: 12px; -fx-padding: 12px; -fx-cursor: hand; -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 3);" text="Calcular Média" />
+      <Button fx:id="btnCalcular" layoutX="143.0" layoutY="560.0" style="-fx-background-color: #5900A1; -fx-text-fill: white; -fx-font-size: 20px; -fx-background-radius: 12px; -fx-padding: 12px; -fx-cursor: hand; -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 3);" text="Calcular Média" />
     <Label layoutX="50.0" layoutY="155.0" style="-fx-font-size: 30px; -fx-text-fill: #ffffff; -fx-font-weight: bold;" text="Calculadora de Média" />
 </AnchorPane>
