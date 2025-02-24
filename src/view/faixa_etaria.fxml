@@ -32,6 +32,6 @@
       </font>
    </Label>
    <Line endX="100.0" layoutX="-201.0" layoutY="50.0" startX="-100.0" />
-   <Line endX="100.0" layoutX="216.0" layoutY="782.0" startX="-100.0" />
+   <Line endX="100.0" layoutX="215.0" layoutY="780.0" startX="-100.0" />
 
 </AnchorPane>
